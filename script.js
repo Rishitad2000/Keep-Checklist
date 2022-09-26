@@ -4,7 +4,7 @@ const addBtn = document.querySelector(".inputField button");
 const todoList = document.querySelector(".todoList");
 const deleteAllBtn = document.querySelector(".footer button");
 
-// onkeyup event
+
 inputBox.onkeyup = ()=>{
   let userEnteredValue = inputBox.value; 
   if(userEnteredValue.trim() != 0){ 
@@ -14,7 +14,7 @@ inputBox.onkeyup = ()=>{
   }
 }
 
-showTasks(); //calling showTask function
+showTasks();
 
 addBtn.onclick = ()=>{ 
   let userEnteredValue = inputBox.value; 
